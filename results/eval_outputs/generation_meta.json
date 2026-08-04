@@ -1,0 +1,154 @@
+{
+  "total_prompts": 20,
+  "base_seed": 42,
+  "cfg_scale": 7.0,
+  "num_steps": 30,
+  "resolution": "1024x1024",
+  "negative_prompt": "photorealistic, 3D render, sharp edges, cartoon, anime, low quality, blurry, text, watermark, UI elements",
+  "categories": {
+    "natural_environments": [
+      0,
+      2
+    ],
+    "urban_architecture": [
+      2,
+      4
+    ],
+    "characters_figures": [
+      4,
+      6
+    ],
+    "animals_creatures": [
+      6,
+      8
+    ],
+    "still_life_objects": [
+      8,
+      10
+    ],
+    "weather_atmospheric": [
+      10,
+      12
+    ],
+    "fantasy_surreal": [
+      12,
+      14
+    ],
+    "interior_scenes": [
+      14,
+      16
+    ],
+    "abstract_compositional": [
+      16,
+      18
+    ],
+    "seasonal_time_of_day": [
+      18,
+      20
+    ]
+  },
+  "prompts": {
+    "0000": {
+      "base": "a misty forest at dawn with sunlight filtering through tall pines",
+      "vanilla": "a painterly misty forest at dawn with sunlight filtering through tall pines",
+      "lora": "a <s0><s1> style misty forest at dawn with sunlight filtering through tall pines"
+    },
+    "0001": {
+      "base": "a pine forest blanketed in fresh snow at night",
+      "vanilla": "a painterly pine forest blanketed in fresh snow at night",
+      "lora": "a <s0><s1> style pine forest blanketed in fresh snow at night"
+    },
+    "0002": {
+      "base": "a narrow European cobblestone alley with hanging laundry",
+      "vanilla": "a painterly narrow European cobblestone alley with hanging laundry",
+      "lora": "a <s0><s1> style narrow European cobblestone alley with hanging laundry"
+    },
+    "0003": {
+      "base": "a whitewashed village on a Greek island hillside",
+      "vanilla": "a painterly whitewashed village on a Greek island hillside",
+      "lora": "a <s0><s1> style whitewashed village on a Greek island hillside"
+    },
+    "0004": {
+      "base": "a solitary figure walking along a beach at sunset",
+      "vanilla": "a painterly solitary figure walking along a beach at sunset",
+      "lora": "a <s0><s1> style solitary figure walking along a beach at sunset"
+    },
+    "0005": {
+      "base": "a lone rider on a horse in an open prairie",
+      "vanilla": "a painterly lone rider on a horse in an open prairie",
+      "lora": "a <s0><s1> style lone rider on a horse in an open prairie"
+    },
+    "0006": {
+      "base": "a white fox sitting in a snowy landscape",
+      "vanilla": "a painterly white fox sitting in a snowy landscape",
+      "lora": "a <s0><s1> style white fox sitting in a snowy landscape"
+    },
+    "0007": {
+      "base": "a stag with large antlers in morning mist",
+      "vanilla": "a painterly stag with large antlers in morning mist",
+      "lora": "a <s0><s1> style stag with large antlers in morning mist"
+    },
+    "0008": {
+      "base": "a cup of tea on a windowsill with rain outside",
+      "vanilla": "a painterly cup of tea on a windowsill with rain outside",
+      "lora": "a <s0><s1> style cup of tea on a windowsill with rain outside"
+    },
+    "0009": {
+      "base": "a set of watercolor paints with a half-finished painting",
+      "vanilla": "a painterly set of watercolor paints with a half-finished painting",
+      "lora": "a <s0><s1> style set of watercolor paints with a half-finished painting"
+    },
+    "0010": {
+      "base": "a thunderstorm over a dark ocean with lightning",
+      "vanilla": "a painterly thunderstorm over a dark ocean with lightning",
+      "lora": "a <s0><s1> style thunderstorm over a dark ocean with lightning"
+    },
+    "0011": {
+      "base": "fresh snow on rooftops in a quiet town",
+      "vanilla": "a painterly fresh snow on rooftops in a quiet town",
+      "lora": "a <s0><s1> style fresh snow on rooftops in a quiet town"
+    },
+    "0012": {
+      "base": "a floating island with a waterfall pouring into the void",
+      "vanilla": "a painterly floating island with a waterfall pouring into the void",
+      "lora": "a <s0><s1> style floating island with a waterfall pouring into the void"
+    },
+    "0013": {
+      "base": "a city built on the back of a colossal turtle",
+      "vanilla": "a painterly city built on the back of a colossal turtle",
+      "lora": "a <s0><s1> style city built on the back of a colossal turtle"
+    },
+    "0014": {
+      "base": "a cozy reading nook with pillows and warm lamp light",
+      "vanilla": "a painterly cozy reading nook with pillows and warm lamp light",
+      "lora": "a <s0><s1> style cozy reading nook with pillows and warm lamp light"
+    },
+    "0015": {
+      "base": "a clockmaker's workshop with hundreds of ticking clocks",
+      "vanilla": "a painterly clockmaker's workshop with hundreds of ticking clocks",
+      "lora": "a <s0><s1> style clockmaker's workshop with hundreds of ticking clocks"
+    },
+    "0016": {
+      "base": "flowing organic shapes in warm amber tones",
+      "vanilla": "a painterly flowing organic shapes in warm amber tones",
+      "lora": "a <s0><s1> style flowing organic shapes in warm amber tones"
+    },
+    "0017": {
+      "base": "ice crystal formations under a microscope",
+      "vanilla": "a painterly ice crystal formations under a microscope",
+      "lora": "a <s0><s1> style ice crystal formations under a microscope"
+    },
+    "0018": {
+      "base": "a village in the first light of a spring morning",
+      "vanilla": "a painterly village in the first light of a spring morning",
+      "lora": "a <s0><s1> style village in the first light of a spring morning"
+    },
+    "0019": {
+      "base": "a scorching summer desert under a white sun",
+      "vanilla": "a painterly scorching summer desert under a white sun",
+      "lora": "a <s0><s1> style scorching summer desert under a white sun"
+    }
+  },
+  "vanilla_count": 20,
+  "lora_count": 20
+}

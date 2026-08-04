@@ -1,0 +1,78 @@
+{
+  "n_prompts_requested": 20,
+  "n_pairs_evaluated": 20,
+  "gram_style_loss": {
+    "vanilla_mean": 4.4363744829183585,
+    "vanilla_std": 7.191932074385826,
+    "lora_mean": 3.1960789713232614,
+    "lora_std": 3.3398688442803657,
+    "improvement_pct": 27.957412440511547,
+    "lora_win_rate": 0.65,
+    "reference_count": 22
+  },
+  "clip_score": {
+    "vanilla_mean": 0.3560745343565941,
+    "vanilla_std": 0.03495651144079023,
+    "lora_mean": 0.3237715110182762,
+    "lora_std": 0.03577012109154197,
+    "delta": -0.03230302333831786
+  },
+  "clip_per_category": {
+    "natural_environments": {
+      "n": 2,
+      "vanilla_mean": 0.34778694808483124,
+      "lora_mean": 0.303928017616272
+    },
+    "urban_architecture": {
+      "n": 2,
+      "vanilla_mean": 0.36781543493270874,
+      "lora_mean": 0.3654585927724838
+    },
+    "characters_figures": {
+      "n": 2,
+      "vanilla_mean": 0.37698011100292206,
+      "lora_mean": 0.3050633668899536
+    },
+    "animals_creatures": {
+      "n": 2,
+      "vanilla_mean": 0.35755755007267,
+      "lora_mean": 0.3148185759782791
+    },
+    "still_life_objects": {
+      "n": 2,
+      "vanilla_mean": 0.3635095953941345,
+      "lora_mean": 0.3353803753852844
+    },
+    "weather_atmospheric": {
+      "n": 2,
+      "vanilla_mean": 0.31817150115966797,
+      "lora_mean": 0.3354196697473526
+    },
+    "fantasy_surreal": {
+      "n": 2,
+      "vanilla_mean": 0.4070310592651367,
+      "lora_mean": 0.32146698236465454
+    },
+    "interior_scenes": {
+      "n": 2,
+      "vanilla_mean": 0.35772013664245605,
+      "lora_mean": 0.3651948422193527
+    },
+    "abstract_compositional": {
+      "n": 2,
+      "vanilla_mean": 0.3263067305088043,
+      "lora_mean": 0.2832341492176056
+    },
+    "seasonal_time_of_day": {
+      "n": 2,
+      "vanilla_mean": 0.33786627650260925,
+      "lora_mean": 0.30775053799152374
+    }
+  },
+  "lpips": {
+    "mean": 0.5687732234597206,
+    "std": 0.09779722775219854,
+    "median": 0.5534610152244568
+  },
+  "fid_skipped_reason": "n=20 < 200"
+}

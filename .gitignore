@@ -1,0 +1,48 @@
+# Claude Code local settings
+.claude/
+
+# Kaggle output archive (unpacked into results/)
+results.zip
+*.zip
+
+# Generated at runtime by testing-neva.ipynb
+prompts.py
+eval_outputs/
+
+# Model weights / adapters — keep out of git
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Secrets / credentials
+.env
+.env.*
+kaggle.json
+*.pem
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Kaggle run bookkeeping
+__huggingface_repos__.json
